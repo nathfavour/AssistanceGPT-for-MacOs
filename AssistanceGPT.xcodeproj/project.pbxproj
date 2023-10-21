@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE57F1822AE337A000453E2F /* AssistanceGPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE57F1812AE337A000453E2F /* AssistanceGPTApp.swift */; };
+		AE57F1842AE337A000453E2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE57F1832AE337A000453E2F /* ContentView.swift */; };
+		AE57F1862AE337A400453E2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE57F1852AE337A400453E2F /* Assets.xcassets */; };
+		AE57F1892AE337A400453E2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE57F1882AE337A400453E2F /* Preview Assets.xcassets */; };
+		AE57F18B2AE337A400453E2F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE57F18A2AE337A400453E2F /* Persistence.swift */; };
+		AE57F18E2AE337A400453E2F /* AssistanceGPT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE57F18C2AE337A400453E2F /* AssistanceGPT.xcdatamodeld */; };
+		AE57F1992AE337A500453E2F /* AssistanceGPTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE57F1982AE337A500453E2F /* AssistanceGPTTests.swift */; };
+		AE57F1A32AE337A500453E2F /* AssistanceGPTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE57F1A22AE337A500453E2F /* AssistanceGPTUITests.swift */; };
+		AE57F1A52AE337A500453E2F /* AssistanceGPTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE57F1A42AE337A500453E2F /* AssistanceGPTUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE57F1952AE337A500453E2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE57F1762AE337A000453E2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE57F17D2AE337A000453E2F;
+			remoteInfo = AssistanceGPT;
+		};
+		AE57F19F2AE337A500453E2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE57F1762AE337A000453E2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE57F17D2AE337A000453E2F;
+			remoteInfo = AssistanceGPT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE57F17E2AE337A000453E2F /* AssistanceGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssistanceGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE57F1812AE337A000453E2F /* AssistanceGPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistanceGPTApp.swift; sourceTree = "<group>"; };
+		AE57F1832AE337A000453E2F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AE57F1852AE337A400453E2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE57F1882AE337A400453E2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE57F18A2AE337A400453E2F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		AE57F18D2AE337A400453E2F /* AssistanceGPT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AssistanceGPT.xcdatamodel; sourceTree = "<group>"; };
+		AE57F18F2AE337A400453E2F /* AssistanceGPT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AssistanceGPT.entitlements; sourceTree = "<group>"; };
+		AE57F1942AE337A500453E2F /* AssistanceGPTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssistanceGPTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE57F1982AE337A500453E2F /* AssistanceGPTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistanceGPTTests.swift; sourceTree = "<group>"; };
+		AE57F19E2AE337A500453E2F /* AssistanceGPTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssistanceGPTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE57F1A22AE337A500453E2F /* AssistanceGPTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistanceGPTUITests.swift; sourceTree = "<group>"; };
+		AE57F1A42AE337A500453E2F /* AssistanceGPTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistanceGPTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE57F17B2AE337A000453E2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE57F1912AE337A500453E2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE57F19B2AE337A500453E2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE57F1752AE337A000453E2F = {
+			isa = PBXGroup;
+			children = (
+				AE57F1802AE337A000453E2F /* AssistanceGPT */,
+				AE57F1972AE337A500453E2F /* AssistanceGPTTests */,
+				AE57F1A12AE337A500453E2F /* AssistanceGPTUITests */,
+				AE57F17F2AE337A000453E2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE57F17F2AE337A000453E2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE57F17E2AE337A000453E2F /* AssistanceGPT.app */,
+				AE57F1942AE337A500453E2F /* AssistanceGPTTests.xctest */,
+				AE57F19E2AE337A500453E2F /* AssistanceGPTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE57F1802AE337A000453E2F /* AssistanceGPT */ = {
+			isa = PBXGroup;
+			children = (
+				AE57F1812AE337A000453E2F /* AssistanceGPTApp.swift */,
+				AE57F1832AE337A000453E2F /* ContentView.swift */,
+				AE57F1852AE337A400453E2F /* Assets.xcassets */,
+				AE57F18A2AE337A400453E2F /* Persistence.swift */,
+				AE57F18F2AE337A400453E2F /* AssistanceGPT.entitlements */,
+				AE57F18C2AE337A400453E2F /* AssistanceGPT.xcdatamodeld */,
+				AE57F1872AE337A400453E2F /* Preview Content */,
+			);
+			path = AssistanceGPT;
+			sourceTree = "<group>";
+		};
+		AE57F1872AE337A400453E2F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AE57F1882AE337A400453E2F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AE57F1972AE337A500453E2F /* AssistanceGPTTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE57F1982AE337A500453E2F /* AssistanceGPTTests.swift */,
+			);
+			path = AssistanceGPTTests;
+			sourceTree = "<group>";
+		};
+		AE57F1A12AE337A500453E2F /* AssistanceGPTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE57F1A22AE337A500453E2F /* AssistanceGPTUITests.swift */,
+				AE57F1A42AE337A500453E2F /* AssistanceGPTUITestsLaunchTests.swift */,
+			);
+			path = AssistanceGPTUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE57F17D2AE337A000453E2F /* AssistanceGPT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE57F1A82AE337A500453E2F /* Build configuration list for PBXNativeTarget "AssistanceGPT" */;
+			buildPhases = (
+				AE57F17A2AE337A000453E2F /* Sources */,
+				AE57F17B2AE337A000453E2F /* Frameworks */,
+				AE57F17C2AE337A000453E2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AssistanceGPT;
+			productName = AssistanceGPT;
+			productReference = AE57F17E2AE337A000453E2F /* AssistanceGPT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE57F1932AE337A500453E2F /* AssistanceGPTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE57F1AB2AE337A500453E2F /* Build configuration list for PBXNativeTarget "AssistanceGPTTests" */;
+			buildPhases = (
+				AE57F1902AE337A500453E2F /* Sources */,
+				AE57F1912AE337A500453E2F /* Frameworks */,
+				AE57F1922AE337A500453E2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE57F1962AE337A500453E2F /* PBXTargetDependency */,
+			);
+			name = AssistanceGPTTests;
+			productName = AssistanceGPTTests;
+			productReference = AE57F1942AE337A500453E2F /* AssistanceGPTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE57F19D2AE337A500453E2F /* AssistanceGPTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE57F1AE2AE337A500453E2F /* Build configuration list for PBXNativeTarget "AssistanceGPTUITests" */;
+			buildPhases = (
+				AE57F19A2AE337A500453E2F /* Sources */,
+				AE57F19B2AE337A500453E2F /* Frameworks */,
+				AE57F19C2AE337A500453E2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE57F1A02AE337A500453E2F /* PBXTargetDependency */,
+			);
+			name = AssistanceGPTUITests;
+			productName = AssistanceGPTUITests;
+			productReference = AE57F19E2AE337A500453E2F /* AssistanceGPTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE57F1762AE337A000453E2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AE57F17D2AE337A000453E2F = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					AE57F1932AE337A500453E2F = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = AE57F17D2AE337A000453E2F;
+					};
+					AE57F19D2AE337A500453E2F = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = AE57F17D2AE337A000453E2F;
+					};
+				};
+			};
+			buildConfigurationList = AE57F1792AE337A000453E2F /* Build configuration list for PBXProject "AssistanceGPT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE57F1752AE337A000453E2F;
+			productRefGroup = AE57F17F2AE337A000453E2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE57F17D2AE337A000453E2F /* AssistanceGPT */,
+				AE57F1932AE337A500453E2F /* AssistanceGPTTests */,
+				AE57F19D2AE337A500453E2F /* AssistanceGPTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE57F17C2AE337A000453E2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE57F1892AE337A400453E2F /* Preview Assets.xcassets in Resources */,
+				AE57F1862AE337A400453E2F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE57F1922AE337A500453E2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE57F19C2AE337A500453E2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE57F17A2AE337A000453E2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE57F18B2AE337A400453E2F /* Persistence.swift in Sources */,
+				AE57F1842AE337A000453E2F /* ContentView.swift in Sources */,
+				AE57F1822AE337A000453E2F /* AssistanceGPTApp.swift in Sources */,
+				AE57F18E2AE337A400453E2F /* AssistanceGPT.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE57F1902AE337A500453E2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE57F1992AE337A500453E2F /* AssistanceGPTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE57F19A2AE337A500453E2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE57F1A52AE337A500453E2F /* AssistanceGPTUITestsLaunchTests.swift in Sources */,
+				AE57F1A32AE337A500453E2F /* AssistanceGPTUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE57F1962AE337A500453E2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE57F17D2AE337A000453E2F /* AssistanceGPT */;
+			targetProxy = AE57F1952AE337A500453E2F /* PBXContainerItemProxy */;
+		};
+		AE57F1A02AE337A500453E2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE57F17D2AE337A000453E2F /* AssistanceGPT */;
+			targetProxy = AE57F19F2AE337A500453E2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AE57F1A62AE337A500453E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE57F1A72AE337A500453E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AE57F1A92AE337A500453E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AssistanceGPT/AssistanceGPT.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AssistanceGPT/Preview Content\"";
+				DEVELOPMENT_TEAM = VRZ5HGV95S;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bAInaryglobe.AssistanceGPT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AE57F1AA2AE337A500453E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AssistanceGPT/AssistanceGPT.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AssistanceGPT/Preview Content\"";
+				DEVELOPMENT_TEAM = VRZ5HGV95S;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bAInaryglobe.AssistanceGPT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AE57F1AC2AE337A500453E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VRZ5HGV95S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bAInaryglobe.AssistanceGPTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AssistanceGPT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AssistanceGPT";
+			};
+			name = Debug;
+		};
+		AE57F1AD2AE337A500453E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VRZ5HGV95S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bAInaryglobe.AssistanceGPTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AssistanceGPT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AssistanceGPT";
+			};
+			name = Release;
+		};
+		AE57F1AF2AE337A500453E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VRZ5HGV95S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bAInaryglobe.AssistanceGPTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AssistanceGPT;
+			};
+			name = Debug;
+		};
+		AE57F1B02AE337A500453E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VRZ5HGV95S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bAInaryglobe.AssistanceGPTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AssistanceGPT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE57F1792AE337A000453E2F /* Build configuration list for PBXProject "AssistanceGPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE57F1A62AE337A500453E2F /* Debug */,
+				AE57F1A72AE337A500453E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE57F1A82AE337A500453E2F /* Build configuration list for PBXNativeTarget "AssistanceGPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE57F1A92AE337A500453E2F /* Debug */,
+				AE57F1AA2AE337A500453E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE57F1AB2AE337A500453E2F /* Build configuration list for PBXNativeTarget "AssistanceGPTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE57F1AC2AE337A500453E2F /* Debug */,
+				AE57F1AD2AE337A500453E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE57F1AE2AE337A500453E2F /* Build configuration list for PBXNativeTarget "AssistanceGPTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE57F1AF2AE337A500453E2F /* Debug */,
+				AE57F1B02AE337A500453E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AE57F18C2AE337A400453E2F /* AssistanceGPT.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AE57F18D2AE337A400453E2F /* AssistanceGPT.xcdatamodel */,
+			);
+			currentVersion = AE57F18D2AE337A400453E2F /* AssistanceGPT.xcdatamodel */;
+			path = AssistanceGPT.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AE57F1762AE337A000453E2F /* Project object */;
+}
